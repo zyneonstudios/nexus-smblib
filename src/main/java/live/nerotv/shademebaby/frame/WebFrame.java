@@ -78,8 +78,9 @@ public class WebFrame extends JFrame {
         client.addMessageRouter(messageRouter);
         client.addDownloadHandler(new CefDownloadHandler() {
             @Override
-            public void onBeforeDownload(CefBrowser browser, CefDownloadItem item, String s, CefBeforeDownloadCallback callback) {
+            public boolean onBeforeDownload(CefBrowser browser, CefDownloadItem item, String s, CefBeforeDownloadCallback callback) {
                 callback.Continue(s,true);
+                return false;
             }
 
             @Override
