@@ -1,10 +1,15 @@
-# Nexus SMBLib ([ShadeMeBaby@danieldieeins](https://github.com/danieldieeins/))
+# Nexus SMBLib
+### [[forkof:]ShadeMeBaby@danieldieeins](https://github.com/danieldieeins/)
+
+---
 
 ### This is an deprecated and archived library forked from [@danieldieeins](https://github.com/danieldieeins/).
 The library has been replaced by our new libraries [Nexus Utilities](https://github.com/zyneonstudios/nexus-utilities) and [Nexus Desktop base](https://github.com/zyneonstudios/nexus-desktop-base).
 <br>If you still want to embed the library in your code, you can find instructions on how to do so here.
 <br>Choose one of the following dependency managers or download the latest release and implement it locally.
 <br>[Maven](#implement-smblib-via-maven) - [Gradle (Groovy)](#implement-via-gradle-groovy) - [Gradle (Kotlin)](#implement-via-gradle-kotlin) - [SBT](#implement-via-sbt) - (Local: [Latest release](https://github.com/zyneonstudios/nexus-smblib/releases/latest/))
+
+---
 
 #### Implement SMBLib via Maven
 ```
@@ -27,6 +32,9 @@ The library has been replaced by our new libraries [Nexus Utilities](https://git
     </dependency>
 </dependencies>
 ```
+
+---
+
 #### Implement via Gradle (Groovy)
 ```
 repositories {
@@ -41,6 +49,9 @@ dependencies {
     implementation 'com.zyneonstudios.nexus:smblib:2024.8'
 }
 ```
+
+---
+
 #### Implement via Gradle (Kotlin)
 ```
 repositories {
@@ -55,6 +66,9 @@ dependencies {
     implementation("com.zyneonstudios.nexus:smblib:2024.8")
 }
 ```
+
+---
+
 #### Implement via SBT
 ```
 resolvers +=
