@@ -1,7 +1,5 @@
 # Nexus SMBLib ([ShadeMeBaby@danieldieeins](https://github.com/danieldieeins/))
 
----
-
 ### This is an deprecated and archived library forked from [@danieldieeins](https://github.com/danieldieeins/).
 The library has been replaced by our new libraries [Nexus Utilities](https://github.com/zyneonstudios/nexus-utilities) and [Nexus Desktop base](https://github.com/zyneonstudios/nexus-desktop-base).
 <br>If you still want to embed the library in your code, you can find instructions on how to do so here.
