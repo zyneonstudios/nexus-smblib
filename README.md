@@ -1,5 +1,5 @@
 # Nexus SMBLib
-### [[forkof:]ShadeMeBaby@danieldieeins](https://github.com/danieldieeins/ShadeMeBaby)
+### [forkof:ShadeMeBaby@danieldieeins](https://github.com/danieldieeins/ShadeMeBaby)
 
 ---
 
