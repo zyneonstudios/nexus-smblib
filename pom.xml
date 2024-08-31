@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zyneonstudios</groupId>
-    <artifactId>nexus-smblib</artifactId>
+    <groupId>com.zyneonstudios.nexus</groupId>
+    <artifactId>smblib</artifactId>
     <version>2024.8</version>
 
     <properties>
@@ -53,7 +53,7 @@
     <distributionManagement>
         <repository>
             <id>zyneonstudios-repo</id>
-            <url>http://maven.zyneonstudios.com:8080/releases</url>
+            <url>https://maven.zyneonstudios.com/releases</url>
         </repository>
     </distributionManagement>
 
